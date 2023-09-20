@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 247, 216);
+  }
+  
+  .conteiner {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #000000;
+    background-color: rgb(236, 236, 236);
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+    #butao-tarefa{
+      color: black;
+      background-color: #94eeaa;
+      border: none;
+      padding: 10px;
+      margin: 12px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    #pergunta-Nome {
+      padding: 8px;
+    }
